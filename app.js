@@ -35,8 +35,8 @@ const mongoose = require("mongoose");
 // Database connection
 const uri = "mongodb+srv://crud:Now1234Shin@cluster0.0jiyobw.mongodb.net/crud?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log("✅ MongoDB Connected with Mongoose"))
-  .catch(err => console.error("❌ MongoDB Connection Error:", err));
+  .then(() => console.log("MongoDB Connected with Mongoose"))
+  .catch(err => console.error("MongoDB Connection Error:", err));
 
 
 
